@@ -11,4 +11,4 @@ ZKCameraViewController：相机控制器
 
 ZKPhotoLibraryViewController：自定义相册控制器
 
-![](http://xsjy-1254153797.cos.ap-shanghai.myqcloud.com/liuliu/picture/ios/1648540791/512A3366-573B-4E2C-8FC3-656A32AC35F5.png)
+![](http://xsjy-1254153797.cos.ap-shanghai.myqcloud.com/liuliu/picture/ios/1648541087//40099D1A-B022-40F9-B729-4A8640529B2A.png)
