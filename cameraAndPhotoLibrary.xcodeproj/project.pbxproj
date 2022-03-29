@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E0945F27F28B3E00707088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0945E27F28B3E00707088 /* AppDelegate.m */; };
+		23E0946527F28B3E00707088 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0946427F28B3E00707088 /* ZKMainViewController.m */; };
+		23E0946A27F28B4100707088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E0946927F28B4100707088 /* Assets.xcassets */; };
+		23E0946D27F28B4100707088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E0946B27F28B4100707088 /* LaunchScreen.storyboard */; };
+		23E0947027F28B4100707088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0946F27F28B4100707088 /* main.m */; };
+		23E0947A27F28B4100707088 /* cameraAndPhotoLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0947927F28B4100707088 /* cameraAndPhotoLibraryTests.m */; };
+		23E0948427F28B4100707088 /* cameraAndPhotoLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0948327F28B4100707088 /* cameraAndPhotoLibraryUITests.m */; };
+		23E0948627F28B4100707088 /* cameraAndPhotoLibraryUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0948527F28B4100707088 /* cameraAndPhotoLibraryUITestsLaunchTests.m */; };
+		23E0949527F28CB800707088 /* ZKCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0949327F28CB800707088 /* ZKCameraViewController.m */; };
+		23E094A127F28CF700707088 /* DJCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0949C27F28CF700707088 /* DJCameraManager.m */; };
+		23E094A327F28CF700707088 /* UIImage+DJResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0949E27F28CF700707088 /* UIImage+DJResize.m */; };
+		23E094AC27F28E1F00707088 /* ZKPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094AB27F28E1F00707088 /* ZKPhotoPreviewViewController.m */; };
+		23E094C827F2A4F900707088 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094AF27F2A4F800707088 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		23E094C927F2A4F900707088 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094B827F2A4F900707088 /* ViewController+MASAdditions.m */; };
+		23E094CA27F2A4F900707088 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094BC27F2A4F900707088 /* MASCompositeConstraint.m */; };
+		23E094CB27F2A4F900707088 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094BD27F2A4F900707088 /* MASConstraintMaker.m */; };
+		23E094CC27F2A4F900707088 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094BE27F2A4F900707088 /* MASLayoutConstraint.m */; };
+		23E094CD27F2A4F900707088 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094BF27F2A4F900707088 /* NSArray+MASAdditions.m */; };
+		23E094CE27F2A4F900707088 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094C027F2A4F900707088 /* View+MASAdditions.m */; };
+		23E094CF27F2A4F900707088 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094C327F2A4F900707088 /* MASConstraint.m */; };
+		23E094D027F2A4F900707088 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094C527F2A4F900707088 /* MASViewConstraint.m */; };
+		23E094D127F2A4F900707088 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094C627F2A4F900707088 /* MASViewAttribute.m */; };
+		23E094D727F2A68100707088 /* UIColor+HZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094D627F2A68100707088 /* UIColor+HZ.m */; };
+		23E094E027F2A8BA00707088 /* ZKPhotoLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094DF27F2A8BA00707088 /* ZKPhotoLibraryViewController.m */; };
+		23E094E327F2A93000707088 /* ZKPhotoLibraryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094E127F2A93000707088 /* ZKPhotoLibraryView.m */; };
+		23E094E627F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094E427F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.m */; };
+		23E094E827F2AA8A00707088 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E094E727F2AA8A00707088 /* Photos.framework */; };
+		23E094EB27F2ACC000707088 /* UIView+MMLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E094E927F2ACC000707088 /* UIView+MMLayout.m */; };
+		23F1D5C827F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1D5C727F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23E0947627F28B4100707088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E0945227F28B3E00707088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E0945927F28B3E00707088;
+			remoteInfo = cameraAndPhotoLibrary;
+		};
+		23E0948027F28B4100707088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E0945227F28B3E00707088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E0945927F28B3E00707088;
+			remoteInfo = cameraAndPhotoLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E0945A27F28B3E00707088 /* cameraAndPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraAndPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E0945D27F28B3E00707088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23E0945E27F28B3E00707088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23E0946327F28B3E00707088 /* ZKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		23E0946427F28B3E00707088 /* ZKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		23E0946927F28B4100707088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E0946C27F28B4100707088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23E0946E27F28B4100707088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E0946F27F28B4100707088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23E0947527F28B4100707088 /* cameraAndPhotoLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraAndPhotoLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E0947927F28B4100707088 /* cameraAndPhotoLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraAndPhotoLibraryTests.m; sourceTree = "<group>"; };
+		23E0947F27F28B4100707088 /* cameraAndPhotoLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraAndPhotoLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E0948327F28B4100707088 /* cameraAndPhotoLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraAndPhotoLibraryUITests.m; sourceTree = "<group>"; };
+		23E0948527F28B4100707088 /* cameraAndPhotoLibraryUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraAndPhotoLibraryUITestsLaunchTests.m; sourceTree = "<group>"; };
+		23E0949327F28CB800707088 /* ZKCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCameraViewController.m; sourceTree = "<group>"; };
+		23E0949427F28CB800707088 /* ZKCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCameraViewController.h; sourceTree = "<group>"; };
+		23E0949727F28CF700707088 /* DJCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCameraManager.h; sourceTree = "<group>"; };
+		23E0949927F28CF700707088 /* UIImage+DJResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DJResize.h"; sourceTree = "<group>"; };
+		23E0949C27F28CF700707088 /* DJCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCameraManager.m; sourceTree = "<group>"; };
+		23E0949E27F28CF700707088 /* UIImage+DJResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DJResize.m"; sourceTree = "<group>"; };
+		23E094AA27F28E1F00707088 /* ZKPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		23E094AB27F28E1F00707088 /* ZKPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		23E094AE27F2A4F800707088 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		23E094AF27F2A4F800707088 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		23E094B027F2A4F800707088 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		23E094B127F2A4F800707088 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		23E094B227F2A4F900707088 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		23E094B327F2A4F900707088 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		23E094B427F2A4F900707088 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		23E094B527F2A4F900707088 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		23E094B627F2A4F900707088 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		23E094B727F2A4F900707088 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		23E094B827F2A4F900707088 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		23E094B927F2A4F900707088 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		23E094BA27F2A4F900707088 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		23E094BB27F2A4F900707088 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		23E094BC27F2A4F900707088 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		23E094BD27F2A4F900707088 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		23E094BE27F2A4F900707088 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		23E094BF27F2A4F900707088 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		23E094C027F2A4F900707088 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		23E094C127F2A4F900707088 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		23E094C227F2A4F900707088 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		23E094C327F2A4F900707088 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		23E094C427F2A4F900707088 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		23E094C527F2A4F900707088 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		23E094C627F2A4F900707088 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		23E094D327F2A5AC00707088 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		23E094D527F2A68100707088 /* UIColor+HZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HZ.h"; sourceTree = "<group>"; };
+		23E094D627F2A68100707088 /* UIColor+HZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HZ.m"; sourceTree = "<group>"; };
+		23E094DE27F2A8BA00707088 /* ZKPhotoLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPhotoLibraryViewController.h; sourceTree = "<group>"; };
+		23E094DF27F2A8BA00707088 /* ZKPhotoLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPhotoLibraryViewController.m; sourceTree = "<group>"; };
+		23E094E127F2A93000707088 /* ZKPhotoLibraryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPhotoLibraryView.m; sourceTree = "<group>"; };
+		23E094E227F2A93000707088 /* ZKPhotoLibraryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPhotoLibraryView.h; sourceTree = "<group>"; };
+		23E094E427F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPhotoLibraryCollectionViewCell.m; sourceTree = "<group>"; };
+		23E094E527F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPhotoLibraryCollectionViewCell.h; sourceTree = "<group>"; };
+		23E094E727F2AA8A00707088 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Photos.framework; sourceTree = "<group>"; };
+		23E094E927F2ACC000707088 /* UIView+MMLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMLayout.m"; sourceTree = "<group>"; };
+		23E094EA27F2ACC000707088 /* UIView+MMLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MMLayout.h"; sourceTree = "<group>"; };
+		23F1D5C627F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCarmeTypeCollectionViewCell.h; sourceTree = "<group>"; };
+		23F1D5C727F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCarmeTypeCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E0945727F28B3E00707088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E094E827F2AA8A00707088 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947227F28B4100707088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947C27F28B4100707088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E0945127F28B3E00707088 = {
+			isa = PBXGroup;
+			children = (
+				23E0945C27F28B3E00707088 /* cameraAndPhotoLibrary */,
+				23E0947827F28B4100707088 /* cameraAndPhotoLibraryTests */,
+				23E0948227F28B4100707088 /* cameraAndPhotoLibraryUITests */,
+				23E0945B27F28B3E00707088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23E0945B27F28B3E00707088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E0945A27F28B3E00707088 /* cameraAndPhotoLibrary.app */,
+				23E0947527F28B4100707088 /* cameraAndPhotoLibraryTests.xctest */,
+				23E0947F27F28B4100707088 /* cameraAndPhotoLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23E0945C27F28B3E00707088 /* cameraAndPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				23E094D427F2A67800707088 /* Category */,
+				23E094AD27F2A4F800707088 /* Masonry */,
+				23E0949627F28CF700707088 /* DJCameraManager */,
+				23E0949227F28CA500707088 /* Controller */,
+				23E094A627F28D5B00707088 /* View */,
+				23E0945D27F28B3E00707088 /* AppDelegate.h */,
+				23E0945E27F28B3E00707088 /* AppDelegate.m */,
+				23E0946927F28B4100707088 /* Assets.xcassets */,
+				23E0946B27F28B4100707088 /* LaunchScreen.storyboard */,
+				23E0946E27F28B4100707088 /* Info.plist */,
+				23E0946F27F28B4100707088 /* main.m */,
+				23E094D327F2A5AC00707088 /* PrefixHeader.pch */,
+				23E094E727F2AA8A00707088 /* Photos.framework */,
+			);
+			path = cameraAndPhotoLibrary;
+			sourceTree = "<group>";
+		};
+		23E0947827F28B4100707088 /* cameraAndPhotoLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				23E0947927F28B4100707088 /* cameraAndPhotoLibraryTests.m */,
+			);
+			path = cameraAndPhotoLibraryTests;
+			sourceTree = "<group>";
+		};
+		23E0948227F28B4100707088 /* cameraAndPhotoLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23E0948327F28B4100707088 /* cameraAndPhotoLibraryUITests.m */,
+				23E0948527F28B4100707088 /* cameraAndPhotoLibraryUITestsLaunchTests.m */,
+			);
+			path = cameraAndPhotoLibraryUITests;
+			sourceTree = "<group>";
+		};
+		23E0949227F28CA500707088 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23E0946327F28B3E00707088 /* ZKMainViewController.h */,
+				23E0946427F28B3E00707088 /* ZKMainViewController.m */,
+				23E0949427F28CB800707088 /* ZKCameraViewController.h */,
+				23E0949327F28CB800707088 /* ZKCameraViewController.m */,
+				23E094DE27F2A8BA00707088 /* ZKPhotoLibraryViewController.h */,
+				23E094DF27F2A8BA00707088 /* ZKPhotoLibraryViewController.m */,
+				23E094AA27F28E1F00707088 /* ZKPhotoPreviewViewController.h */,
+				23E094AB27F28E1F00707088 /* ZKPhotoPreviewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23E0949627F28CF700707088 /* DJCameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				23E0949727F28CF700707088 /* DJCameraManager.h */,
+				23E0949C27F28CF700707088 /* DJCameraManager.m */,
+				23E0949927F28CF700707088 /* UIImage+DJResize.h */,
+				23E0949E27F28CF700707088 /* UIImage+DJResize.m */,
+			);
+			path = DJCameraManager;
+			sourceTree = "<group>";
+		};
+		23E094A627F28D5B00707088 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23F1D5C627F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.h */,
+				23F1D5C727F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.m */,
+				23E094E227F2A93000707088 /* ZKPhotoLibraryView.h */,
+				23E094E127F2A93000707088 /* ZKPhotoLibraryView.m */,
+				23E094E527F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.h */,
+				23E094E427F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23E094AD27F2A4F800707088 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				23E094AE27F2A4F800707088 /* MASCompositeConstraint.h */,
+				23E094AF27F2A4F800707088 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				23E094B027F2A4F800707088 /* MASConstraint+Private.h */,
+				23E094B127F2A4F800707088 /* MASLayoutConstraint.h */,
+				23E094B227F2A4F900707088 /* NSArray+MASShorthandAdditions.h */,
+				23E094B327F2A4F900707088 /* MASConstraintMaker.h */,
+				23E094B427F2A4F900707088 /* View+MASAdditions.h */,
+				23E094B527F2A4F900707088 /* NSArray+MASAdditions.h */,
+				23E094B627F2A4F900707088 /* MASUtilities.h */,
+				23E094B727F2A4F900707088 /* MASViewAttribute.h */,
+				23E094B827F2A4F900707088 /* ViewController+MASAdditions.m */,
+				23E094B927F2A4F900707088 /* MASViewConstraint.h */,
+				23E094BA27F2A4F900707088 /* MASConstraint.h */,
+				23E094BB27F2A4F900707088 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				23E094BC27F2A4F900707088 /* MASCompositeConstraint.m */,
+				23E094BD27F2A4F900707088 /* MASConstraintMaker.m */,
+				23E094BE27F2A4F900707088 /* MASLayoutConstraint.m */,
+				23E094BF27F2A4F900707088 /* NSArray+MASAdditions.m */,
+				23E094C027F2A4F900707088 /* View+MASAdditions.m */,
+				23E094C127F2A4F900707088 /* View+MASShorthandAdditions.h */,
+				23E094C227F2A4F900707088 /* Masonry.h */,
+				23E094C327F2A4F900707088 /* MASConstraint.m */,
+				23E094C427F2A4F900707088 /* ViewController+MASAdditions.h */,
+				23E094C527F2A4F900707088 /* MASViewConstraint.m */,
+				23E094C627F2A4F900707088 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		23E094D427F2A67800707088 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				23E094D527F2A68100707088 /* UIColor+HZ.h */,
+				23E094D627F2A68100707088 /* UIColor+HZ.m */,
+				23E094EA27F2ACC000707088 /* UIView+MMLayout.h */,
+				23E094E927F2ACC000707088 /* UIView+MMLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23E0945927F28B3E00707088 /* cameraAndPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E0948927F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibrary" */;
+			buildPhases = (
+				23E0945627F28B3E00707088 /* Sources */,
+				23E0945727F28B3E00707088 /* Frameworks */,
+				23E0945827F28B3E00707088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameraAndPhotoLibrary;
+			productName = cameraAndPhotoLibrary;
+			productReference = 23E0945A27F28B3E00707088 /* cameraAndPhotoLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23E0947427F28B4100707088 /* cameraAndPhotoLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E0948C27F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibraryTests" */;
+			buildPhases = (
+				23E0947127F28B4100707088 /* Sources */,
+				23E0947227F28B4100707088 /* Frameworks */,
+				23E0947327F28B4100707088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E0947727F28B4100707088 /* PBXTargetDependency */,
+			);
+			name = cameraAndPhotoLibraryTests;
+			productName = cameraAndPhotoLibraryTests;
+			productReference = 23E0947527F28B4100707088 /* cameraAndPhotoLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23E0947E27F28B4100707088 /* cameraAndPhotoLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E0948F27F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibraryUITests" */;
+			buildPhases = (
+				23E0947B27F28B4100707088 /* Sources */,
+				23E0947C27F28B4100707088 /* Frameworks */,
+				23E0947D27F28B4100707088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E0948127F28B4100707088 /* PBXTargetDependency */,
+			);
+			name = cameraAndPhotoLibraryUITests;
+			productName = cameraAndPhotoLibraryUITests;
+			productReference = 23E0947F27F28B4100707088 /* cameraAndPhotoLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E0945227F28B3E00707088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23E0945927F28B3E00707088 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					23E0947427F28B4100707088 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 23E0945927F28B3E00707088;
+					};
+					23E0947E27F28B4100707088 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 23E0945927F28B3E00707088;
+					};
+				};
+			};
+			buildConfigurationList = 23E0945527F28B3E00707088 /* Build configuration list for PBXProject "cameraAndPhotoLibrary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23E0945127F28B3E00707088;
+			productRefGroup = 23E0945B27F28B3E00707088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E0945927F28B3E00707088 /* cameraAndPhotoLibrary */,
+				23E0947427F28B4100707088 /* cameraAndPhotoLibraryTests */,
+				23E0947E27F28B4100707088 /* cameraAndPhotoLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E0945827F28B3E00707088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E0946D27F28B4100707088 /* LaunchScreen.storyboard in Resources */,
+				23E0946A27F28B4100707088 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947327F28B4100707088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947D27F28B4100707088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E0945627F28B3E00707088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E094CF27F2A4F900707088 /* MASConstraint.m in Sources */,
+				23E094AC27F28E1F00707088 /* ZKPhotoPreviewViewController.m in Sources */,
+				23E094EB27F2ACC000707088 /* UIView+MMLayout.m in Sources */,
+				23E094A327F28CF700707088 /* UIImage+DJResize.m in Sources */,
+				23E094CC27F2A4F900707088 /* MASLayoutConstraint.m in Sources */,
+				23E0949527F28CB800707088 /* ZKCameraViewController.m in Sources */,
+				23E0946527F28B3E00707088 /* ZKMainViewController.m in Sources */,
+				23E094D127F2A4F900707088 /* MASViewAttribute.m in Sources */,
+				23E0945F27F28B3E00707088 /* AppDelegate.m in Sources */,
+				23E094CE27F2A4F900707088 /* View+MASAdditions.m in Sources */,
+				23E0947027F28B4100707088 /* main.m in Sources */,
+				23E094C927F2A4F900707088 /* ViewController+MASAdditions.m in Sources */,
+				23E094A127F28CF700707088 /* DJCameraManager.m in Sources */,
+				23E094E627F2A96C00707088 /* ZKPhotoLibraryCollectionViewCell.m in Sources */,
+				23E094CA27F2A4F900707088 /* MASCompositeConstraint.m in Sources */,
+				23E094D727F2A68100707088 /* UIColor+HZ.m in Sources */,
+				23E094E327F2A93000707088 /* ZKPhotoLibraryView.m in Sources */,
+				23F1D5C827F2D7860085A665 /* ZKCarmeTypeCollectionViewCell.m in Sources */,
+				23E094CD27F2A4F900707088 /* NSArray+MASAdditions.m in Sources */,
+				23E094D027F2A4F900707088 /* MASViewConstraint.m in Sources */,
+				23E094E027F2A8BA00707088 /* ZKPhotoLibraryViewController.m in Sources */,
+				23E094CB27F2A4F900707088 /* MASConstraintMaker.m in Sources */,
+				23E094C827F2A4F900707088 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947127F28B4100707088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E0947A27F28B4100707088 /* cameraAndPhotoLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E0947B27F28B4100707088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E0948627F28B4100707088 /* cameraAndPhotoLibraryUITestsLaunchTests.m in Sources */,
+				23E0948427F28B4100707088 /* cameraAndPhotoLibraryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E0947727F28B4100707088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E0945927F28B3E00707088 /* cameraAndPhotoLibrary */;
+			targetProxy = 23E0947627F28B4100707088 /* PBXContainerItemProxy */;
+		};
+		23E0948127F28B4100707088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E0945927F28B3E00707088 /* cameraAndPhotoLibrary */;
+			targetProxy = 23E0948027F28B4100707088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23E0946B27F28B4100707088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E0946C27F28B4100707088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23E0948727F28B4100707088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23E0948827F28B4100707088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23E0948A27F28B4100707088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cameraAndPhotoLibrary",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zhangkeqin/Desktop/cameraAndPhotoLibrary/cameraAndPhotoLibrary/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cameraAndPhotoLibrary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23E0948B27F28B4100707088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cameraAndPhotoLibrary",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zhangkeqin/Desktop/cameraAndPhotoLibrary/cameraAndPhotoLibrary/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cameraAndPhotoLibrary/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23E0948D27F28B4100707088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cameraAndPhotoLibrary.app/cameraAndPhotoLibrary";
+			};
+			name = Debug;
+		};
+		23E0948E27F28B4100707088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cameraAndPhotoLibrary.app/cameraAndPhotoLibrary";
+			};
+			name = Release;
+		};
+		23E0949027F28B4100707088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cameraAndPhotoLibrary;
+			};
+			name = Debug;
+		};
+		23E0949127F28B4100707088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583CQ66HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKTop.www.cameraAndPhotoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cameraAndPhotoLibrary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E0945527F28B3E00707088 /* Build configuration list for PBXProject "cameraAndPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E0948727F28B4100707088 /* Debug */,
+				23E0948827F28B4100707088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E0948927F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E0948A27F28B4100707088 /* Debug */,
+				23E0948B27F28B4100707088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E0948C27F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E0948D27F28B4100707088 /* Debug */,
+				23E0948E27F28B4100707088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E0948F27F28B4100707088 /* Build configuration list for PBXNativeTarget "cameraAndPhotoLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E0949027F28B4100707088 /* Debug */,
+				23E0949127F28B4100707088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23E0945227F28B3E00707088 /* Project object */;
+}

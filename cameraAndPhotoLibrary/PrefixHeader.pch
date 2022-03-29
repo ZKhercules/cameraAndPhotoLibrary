@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  cameraAndPhotoLibrary
+//
+//  Created by zhangkeqin on 2022/3/29.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIColor+HZ.h"
+#import "Masonry.h"
+#import <Photos/Photos.h>
+#import "UIView+MMLayout.h"
+
+
+#pragma mark - 屏幕尺寸
+#define screenW [[UIScreen mainScreen] bounds].size.width
+#define screenH [[UIScreen mainScreen] bounds].size.height
+
+#define iPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+#define navHeight (iPhoneX ? 88.f : 64.f)
+
+
+#define IS_PAD (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPad)
+
+#define pixelValue(number) (IS_PAD ? (number) / 2048.0 * [[UIScreen mainScreen] bounds].size.height : (iPhoneX ? (number) / 750.0 * [[UIScreen mainScreen] bounds].size.width : (number) / 1334.0 * [[UIScreen mainScreen] bounds].size.height))
+
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#endif /* PrefixHeader_pch */
